@@ -1,0 +1,604 @@
+
+# 1
+# def check(number)
+    
+#     if number > 0
+#         puts "positive"
+        
+#     elsif number == 0
+#         puts "zero"
+        
+#     else 
+#     puts "negative"
+# end
+# end
+
+# check(000000)
+
+
+
+# 2
+
+
+# def reverse(number)
+#     sum = 0
+#      while number != 0
+         
+#          r = number%10
+    
+#          sum = (sum * 10 + r)
+    
+#          number = number /10         
+#      end
+     
+#      puts sum
+# end
+
+
+# reverse(123)
+
+
+# 3
+
+
+# def Palindrom(stringvalue)
+    
+#     i = 0 
+#     j = stringvalue.length-1
+    
+#     while i <= j
+        
+#         if(stringvalue[i] != stringvalue[j])
+#             puts false
+#             return
+#         end
+
+#         i += 1
+#         j -= 1        
+        
+#     end
+    
+#     puts true
+# end
+
+# Palindrom("AABBAA")
+# Palindrom("AAfgsfdse")
+
+
+
+# 4
+
+# class Calculator
+    
+#     def additions(value1 , value2)
+#         return value1 + value2
+#     end
+        
+#     def subtractions(value1 , value2)
+#         return value1 - value2
+#     end
+        
+#     def multiplications(value1 , value2)
+#         return value1 * value2
+#     end
+    
+#     def divisions(value1 , value2)
+#         y = value1 / value2
+#         x = value1 % value2
+        
+#         return "division quotient include #{y} , division remainder include #{x}"
+#     end
+    
+# end
+
+# calci = Calculator.new()
+
+# puts calci.additions(30 , 10)
+# puts calci.subtractions(30 , 10)
+# puts calci.multiplications(30 , 10)
+# puts calci.divisions(30 , 10)
+
+
+
+#  Write a program for table from 2 to 10
+
+# for i in 2..10
+    
+#     for j in 1..10
+#         puts ("#{i} * #{j} = #{i*j}")
+#     end
+    
+# end
+
+
+# 6
+
+# def MINMAX(value1 , value2)
+    
+#     if value1 > value2
+#         return "value1 i.e #{value1} is maximum"
+        
+#     elsif value2 > value1
+#         return "value2 i.e #{value2} is maximum"
+#     end
+    
+# end
+
+
+# puts MINMAX(207 , 33)
+
+
+
+#  7
+
+
+# number = 100
+
+# sqrtno = Math.sqrt(number)
+
+# puts sqrtno
+
+
+# 8
+
+
+# class Operations
+    
+#     def initialize(number)
+#         @number = number                 # for instance variable we always use @sign
+#     end
+    
+#     def square
+#         return @number*@number
+#     end
+    
+#     def cube
+#         return @number**3
+#     end
+
+# end
+
+# # values = operations(8)
+
+# operationsValues = Operations.new(8)
+
+# puts operationsValues.square
+# puts operationsValues.cube
+
+
+#  9
+
+# def func(number)
+    
+#     if number >= 0
+#         return "positive no."
+#     else return "negative no."
+#     end
+# end
+
+# puts func(0)
+
+
+# 10
+
+
+# arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# small = arr[0]
+# big = arr[0]
+
+# arr.each do |numbers|
+    
+#     if small > numbers
+#         small = numbers
+#         elsif big < numbers
+#             big = numbers
+#         end
+#     end
+        
+# puts small , big
+        
+        
+# 11
+
+# def calculate(number)
+    
+#     if number %2 == 0
+#         return "even"
+#     else return "odd"
+#     end
+# end
+
+# puts calculate(3)
+
+
+# 12
+
+# def func(number)
+    
+#     if number %2 == 0
+#         return "even no."
+#     else return "odd no."
+#     end
+# end
+
+# puts func(0)
+
+
+        
+  
+# 13
+
+#   for i in 1..100
+      
+#       if i %2 == 0
+
+#       puts i
+#   end
+
+# end        
+        
+
+#  14
+
+#   for i in 1..100
+      
+#       if i %2 != 0
+
+#       puts i
+#   end
+
+# end      
+
+
+
+# 15
+
+
+# def Factorial(number)
+    
+#     x = 1
+#     while number != 0
+        
+#         x = x * number
+#         number = number-1
+#     end
+
+# puts x
+
+# end
+
+
+# Factorial(13)
+
+
+# 16
+
+
+# def func(number)
+    
+#     sum =0
+#     while number != 0
+#         r = number % 10
+#         sum = sum * 10 + r
+#         number = number/10
+#     end
+    
+#     return sum
+# end
+
+# puts func(1234)
+
+
+# 17
+
+# sum = 0
+# for i in 1..120
+    
+#     sum = sum + i
+    
+# end
+
+# puts sum
+
+
+
+# 18
+
+# def CheckPrime(number)
+    
+#     for i in 2..number/2
+
+#       if number % i == 0
+        
+#         return "not a prime no."
+        
+#     end
+# end
+
+# return "Its a prime no."
+
+# end
+
+# puts CheckPrime(65)
+
+
+
+# 19
+
+# def reversee(stringvalue)
+    
+#     x = 0
+#     y = stringvalue.length-1        # remember always initiallize values on a diffenent different lines not in one lines
+    
+#     while x <= y
+        
+#         temp = stringvalue[x]
+#         stringvalue[x] = stringvalue[y]
+#         stringvalue[y] = temp
+        
+#         x = x+1
+#         y = y-1
+#     end
+    
+    
+#     puts stringvalue
+
+# end
+
+# reversee("chirag")
+
+
+# 20
+
+# def func(temp1)
+    
+#     temp = temp1
+#     str = temp1.reverse()
+    
+#     if str == temp
+#         return "plaindrom"
+#     else return "Not a palindrom"
+#     end
+# end
+
+# puts func("abbgndyba")
+
+#  21
+
+# def func(number)
+    
+#     temp = number
+#     sum =0
+#     while number != 0
+#         r = number % 10
+#         sum = sum * 10 + r
+#         number = number/10
+#     end
+    
+#     if sum == temp
+#         return "plaindrom"
+#     else return "Not a palindrom"
+#     end
+# end
+
+# puts func(1226621)
+
+
+# 22
+
+
+# def RemoveSpaces( stringValues )
+    
+#     astr = ""
+    
+#     stringValues.each_char do |char|                     # for accessing particular character we use .each_char
+         
+#         if char == " "
+#             next
+#         elsif astr = astr + char
+            
+#         end
+# end 
+
+# puts astr
+# end
+
+# RemoveSpaces("Removc eSpaces djaslhlajoahe")
+
+
+
+
+# 23
+
+# Note print doesn't go to next line after printing puts 
+# goes to next line after printing only puts act's as cout<<endl;
+
+# 5.downto(i)  this line countss in descending order from 5 to i 
+
+# for i in 1..5
+    
+#     for j in 5.downto(i)
+        
+#         print " "
+#     end
+
+#     for k in 1..(2*i-1)
+        
+#         print "*"
+#     end
+#     puts
+
+# end
+
+
+
+
+# 24
+
+# for i in 1..5
+
+#   for j in 1..i
+
+#     print " "
+    
+# end
+
+#  for k in 9.downto(2*i-1)
+     
+#      print "*"
+     
+# end
+
+# puts
+
+# end    
+
+
+
+
+
+
+# 25
+
+# arr = [2,5,7,4,3,26,7,8]
+
+
+# for i in 0..arr.length-1
+
+#     for j in i+1..arr.length-1
+
+#       if arr[i] > arr[j]
+           
+#           temp = arr[j]
+#           arr[j] = arr[i]
+#           arr[i] = temp
+#       end
+#   end
+# end
+
+
+# puts arr          # shows every element line by line 
+# print arr         # shows every element in single line
+    
+    
+
+# 26
+
+# arr = [2,5,7,4,3,26,7,8]
+
+
+# for i in 0..arr.length-1
+
+#     for j in i+1..arr.length-1
+
+#       if arr[i] < arr[j]
+           
+#           temp = arr[j]
+#           arr[j] = arr[i]
+#           arr[i] = temp
+#       end
+#   end
+# end
+
+
+# print arr    
+    
+    
+#  27
+
+
+# def vowels(strr)
+#     count = 0
+    
+#      for i in 0..strr.length-1
+         
+#          if strr[i] == 'a' || strr[i] == 'e' || strr[i] == 'i' || strr[i] == 'o' || strr[i] == 'u' ||
+#              strr[i] == 'A' || strr[i] == 'E' || strr[i] == 'I' || strr[i] == 'O' || strr[i] == 'U'  
+
+#          count += 1
+#      end
+#     end
+    
+#     print count
+
+# end
+
+# vowels("akhkawkahwebJRLGALALDGALDHGLASHDFL;IAHDLHASDL;HLWEjfiaejrgioharoighaoeirhgoiehrgo;ihawe")
+
+
+# 28
+    
+    
+# def vowels(strr)
+#     count = 0
+    
+#      for i in 0..strr.length-1
+         
+#          if strr[i] == 'a' || strr[i] == 'e' || strr[i] == 'i' || strr[i] == 'o' || strr[i] == 'u' ||
+#              strr[i] == 'A' || strr[i] == 'E' || strr[i] == 'I' || strr[i] == 'O' || strr[i] == 'U'  
+
+#          next
+         
+#      elsif strr[i] > "A" && strr[i] <= "Z" || strr[i] > "a" && strr[i] <= "z"
+#           count +=1
+#      end
+     
+#     end
+    
+#     print count
+
+# end
+
+# vowels("aeioubnmgughjetd")
+
+
+
+
+# 29
+
+   
+#     def vowels(strr)
+#     count = 0
+    
+#      for i in 0..strr.length-1
+         
+#          if strr[i] >= 'a' && strr[i] <= 'z' || strr[i] >= "A" && strr[i] <= "Z"
+#              count += 1
+#      end
+     
+#     end
+    
+#     print count
+
+# end
+
+# vowels("adsfchbngj8294:::")
+
+
+
+# 30
+
+# require 'date'
+
+# day = Date.today - 10
+
+# puts day
+
+
+# 31
+
+# require 'date'
+
+# day = Date.today - 365
+
+# puts day
+
+
+# 32
+    
+# require 'date'
+
+# day = Date.today - 30
+
+# puts day

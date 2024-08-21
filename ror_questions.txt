@@ -1,0 +1,32 @@
+1.Write a program to check weather a number is positive, negative or zero
+2    Write a program to reverse a number
+3    Write a program to check weather a string is palindrome
+4    Write a program for calculator having functionality like addition, subtraction, multiplication,division showing remainder and quotient
+5    Write a program for table from 2 to 10
+6    Write a program to find minimum and maximum between two number
+7    Write a program to find square root of a number given by user
+8    Write a program to find square and cube of a number given by a user
+9    Write a program to find positive and negative integer given by user
+10    Write a program to find minimum and maximum in an array
+11    Write a program to find even and odd number in an array
+12    Write a program to find a number is even or odd given by user
+13    Write a program to find even numbers between 1 to 100
+14    Write a program to find odd numbers between 1 to 100
+15    Write a program to find factorial of a number enter by user
+16    Write a program to reverse a number
+17    Write a program to find sum of digits of a number
+18    Write a program to find a number is prime or not given by user
+19    Write a program to reverse a string given by user
+20    Write a program to check a string is palindrome
+21    Write a program to check a number is palindrome
+22    Write a program to remove spaces from a string given by user
+23    Write a program to print pyramid using *
+24    Write a program to print inverted pyarmid using *
+25    Write a program to sort an array in assecending order
+26    Write a program to sort an array in descending order
+27    Write a program to find number of vowel in a string
+28    Write a program to find number of constant in a string
+29    Write a program to count all alphabet in a string
+30    Write a program to add & subtract 10 days in a date
+31    Write a program to add and subtract one year from a date
+32    Write a program to add and subtract one month from a date
